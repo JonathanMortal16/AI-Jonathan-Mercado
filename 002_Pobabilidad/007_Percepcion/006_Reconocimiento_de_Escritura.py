@@ -4,10 +4,10 @@ import numpy as np
 # ---------------------------------------------------------
 # 1. Cargar imagen y preprocesar
 # ---------------------------------------------------------
-imagen = cv2.imread(r"C:\Users\zenso\OneDrive\Escritorio\Escuela\6to semesttre\Inteligencia Artificial\codes\IA-Jonathan-Mercado\AI-Jonathan-Mercado\002_Pobabilidad\007_Percepcion\texto_pandar.jpg", cv2.IMREAD_GRAYSCALE)
+imagen = cv2.imread(r"C:\Users\zenso\OneDrive\Escritorio\Escuela\6to semesttre\Inteligencia Artificial\codes\IA-Jonathan-Mercado\AI-Jonathan-Mercado\002_Pobabilidad\007_Percepcion\img\texto_pandar.jpg", cv2.IMREAD_GRAYSCALE)
 
 if imagen is None:
-    raise FileNotFoundError("⚠ No se encontró la imagen. Colócala en la misma carpeta que el script.")
+    raise FileNotFoundError("No se encontró la imagen. Colócala en la misma carpeta que el script.")
 
 # Reducir ruido y binarizar
 blur = cv2.GaussianBlur(imagen, (3, 3), 0)

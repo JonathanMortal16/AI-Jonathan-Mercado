@@ -8,7 +8,7 @@ import numpy as np
 imagen = cv2.imread(r"C:\Users\zenso\OneDrive\Escritorio\Escuela\6to semesttre\Inteligencia Artificial\codes\IA-Jonathan-Mercado\AI-Jonathan-Mercado\002_Pobabilidad\007_Percepcion\panda.jpg", cv2.IMREAD_GRAYSCALE)
 
 if imagen is None:
-    raise FileNotFoundError("⚠️ No se encontró la imagen. Coloca una imagen en la misma carpeta.")
+    raise FileNotFoundError("No se encontró la imagen. Coloca una imagen en la misma carpeta.")
 
 # --------------------------------
 # 2. Aplicar distintos filtros

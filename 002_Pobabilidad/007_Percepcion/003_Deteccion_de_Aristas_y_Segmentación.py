@@ -4,10 +4,10 @@ import numpy as np
 # ---------------------------------------------------------
 # 1. Cargar imagen en escala de grises
 # ---------------------------------------------------------
-imagen = cv2.imread(r"C:\Users\zenso\OneDrive\Escritorio\Escuela\6to semesttre\Inteligencia Artificial\codes\IA-Jonathan-Mercado\AI-Jonathan-Mercado\002_Pobabilidad\007_Percepcion\panda.jpg", cv2.IMREAD_GRAYSCALE)
+imagen = cv2.imread(r"C:\Users\zenso\OneDrive\Escritorio\Escuela\6to semesttre\Inteligencia Artificial\codes\IA-Jonathan-Mercado\AI-Jonathan-Mercado\002_Pobabilidad\007_Percepcion\img\panda.jpg", cv2.IMREAD_GRAYSCALE)
 
 if imagen is None:
-    raise FileNotFoundError("⚠ No se pudo leer la imagen. ¿Está en la misma carpeta?")
+    raise FileNotFoundError("No se pudo leer la imagen. ¿Está en la misma carpeta?")
 
 # ---------------------------------------------------------
 # 2. Detección de bordes con Sobel

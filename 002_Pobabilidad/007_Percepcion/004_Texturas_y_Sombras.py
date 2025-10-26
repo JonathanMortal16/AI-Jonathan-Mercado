@@ -6,10 +6,10 @@ import numpy as np
 # ---------------------------------------------------------
 # IMPORTANTE:
 # Cambia "panda.jpg" por la imagen que estés usando.
-img = cv2.imread(r"C:\Users\zenso\OneDrive\Escritorio\Escuela\6to semesttre\Inteligencia Artificial\codes\IA-Jonathan-Mercado\AI-Jonathan-Mercado\002_Pobabilidad\007_Percepcion\panda_panzon.webp", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread(r"C:\Users\zenso\OneDrive\Escritorio\Escuela\6to semesttre\Inteligencia Artificial\codes\IA-Jonathan-Mercado\AI-Jonathan-Mercado\002_Pobabilidad\007_Percepcion\img\panda_panzon.webp", cv2.IMREAD_GRAYSCALE)
 
 if img is None:
-    raise FileNotFoundError("⚠ No se pudo leer la imagen. ¿Está en la misma carpeta?")
+    raise FileNotFoundError("No se pudo leer la imagen. ¿Está en la misma carpeta?")
 
 # ---------------------------------------------------------
 # 2. Estimar TEXTURA local

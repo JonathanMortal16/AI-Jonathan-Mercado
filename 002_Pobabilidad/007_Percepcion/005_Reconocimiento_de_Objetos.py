@@ -5,9 +5,9 @@ import numpy as np
 # 1. Cargar imagen en escala de grises
 # ---------------------------------------------------------
 # Cambia "panda.jpg" por la imagen que quieras analizar.
-img_gray = cv2.imread(r"C:\Users\zenso\OneDrive\Escritorio\Escuela\6to semesttre\Inteligencia Artificial\codes\IA-Jonathan-Mercado\AI-Jonathan-Mercado\002_Pobabilidad\007_Percepcion\panda_panzon.webp", cv2.IMREAD_GRAYSCALE)
+img_gray = cv2.imread(r"C:\Users\zenso\OneDrive\Escritorio\Escuela\6to semesttre\Inteligencia Artificial\codes\IA-Jonathan-Mercado\AI-Jonathan-Mercado\002_Pobabilidad\007_Percepcion\img\panda_panzon.webp", cv2.IMREAD_GRAYSCALE)
 if img_gray is None:
-    raise FileNotFoundError("⚠ No se pudo leer la imagen. Asegúrate que está en la misma carpeta.")
+    raise FileNotFoundError("No se pudo leer la imagen. Asegúrate que está en la misma carpeta.")
 
 # ---------------------------------------------------------
 # 2. Suavizar un poco para reducir ruido
