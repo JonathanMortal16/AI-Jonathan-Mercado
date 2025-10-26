@@ -77,16 +77,6 @@ if __name__ == "__main__":
     # B conecta a D y E
     # E conecta a G
     # C conecta a F
-    #
-    # Visualmente:
-    #   A
-    #  / \
-    # B   C
-    # |\   \
-    # D E   F
-    #    \
-    #     G
-
     grafo = {
         'A': ['B', 'C'],
         'B': ['D', 'E'],
